@@ -14,6 +14,8 @@
 
 # production
 /build
+/credentials
+.env
 
 # misc
 .DS_Store

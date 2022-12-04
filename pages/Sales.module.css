@@ -1,0 +1,84 @@
+.subTitleHolder {
+  background-image: url('/sale.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.subTitle {
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  font-size: 48px;
+  margin: 0;
+}
+
+.highlight {
+  border-bottom: var(--color-primary) 3px solid;
+}
+
+.textHolder {
+  margin-top: 32px;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1.5;
+  line-height: 1;
+  margin: 0 0 12px;
+}
+
+.separator {
+  height: 4px;
+  margin: 32px 0;
+  background-color: #f1f1f1;
+}
+
+.section {
+  margin-top: 32px;
+  background-color: #f1f1f1;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.sectionIcon {
+  font-size: 48px;
+  margin: 16px;
+}
+
+.sectionSale {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionTitle {
+  margin: 0;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+
+.sectionText {
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1.5;
+  line-height: 1.2;
+  margin: 0; 
+}
+
+.sectionList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.salesLabel {
+  font-weight: 500;
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.salesValue {
+  font-weight: 300;
+  font-size: 14px;
+}

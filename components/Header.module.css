@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 32px auto;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 21px;
+  text-transform: uppercase;
+  border: var(--color-primary) 1px solid;
+  display: inline-block;
+}
+
+.titleName {
+  padding: 6px;
+  display: inline-block;
+}
+
+.titleSubname {
+  background-color: var(--color-primary);
+  padding: 6px;
+  display: inline-block;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+}
+
+.link {
+  font-size: 14px;
+}
+
+.link:hover,
+.linkActive {
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  border-bottom: var(--color-primary) 3px solid;
+}

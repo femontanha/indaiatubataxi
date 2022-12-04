@@ -1,0 +1,20 @@
+.whatsapp {
+  background-color: #128C7E;
+  color: #FFF;
+  padding: 8px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.link {
+  margin-left: 8px;
+  font-weight: bold;
+  background: rgb(37,192,87);
+  background: linear-gradient(90deg, rgba(37,192,87,1) 0%, rgba(37,211,102,1) 100%);
+  display: inline-flex;
+  padding: 8px;
+  border-radius: 8px;
+  align-items: center;
+  gap: 4px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
