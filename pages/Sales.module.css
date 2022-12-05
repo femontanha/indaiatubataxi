@@ -82,3 +82,25 @@
   font-weight: 300;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .subTitleHolder {
+    background-image: none;
+  }
+
+  .subTitle {
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    font-size: 24px;
+  }
+
+  .sectionTitle {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+
+  .sectionIcon {
+    display: none;
+  }
+}

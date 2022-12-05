@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { MdQrCode2 } from 'react-icons/md'
 import { AiOutlineWhatsApp } from 'react-icons/ai'
 import { AiOutlineMail } from 'react-icons/ai'
 

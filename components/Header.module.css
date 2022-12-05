@@ -44,3 +44,59 @@
   font-weight: 500;
   border-bottom: var(--color-primary) 3px solid;
 }
+
+@media (max-width: 768px) {
+  .header {
+    margin: 32px auto;
+    position: relative;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 3;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .nav.isVisible {
+    display: block;
+  }
+
+  .navOpen {
+    background-color: transparent;
+    border: 0;
+    font-size: 24px;
+  }
+
+  .navClose {
+    position: fixed;
+    right: 16px;
+    top: 16px;
+    background-color: transparent;
+    border: 0;
+    font-size: 32px;
+  }
+
+  .list {
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .link {
+    font-size: 24px;
+  }
+
+  .link:hover,
+  .linkActive {
+    font-size: 24px;
+  }
+}
