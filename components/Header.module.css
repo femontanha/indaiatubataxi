@@ -45,6 +45,11 @@
   border-bottom: var(--color-primary) 3px solid;
 }
 
+.navOpen,
+.navClose {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .header {
     margin: 32px auto;
@@ -74,9 +79,11 @@
     background-color: transparent;
     border: 0;
     font-size: 24px;
+    display: block;
   }
 
   .navClose {
+    display: block;
     position: fixed;
     right: 16px;
     top: 16px;
