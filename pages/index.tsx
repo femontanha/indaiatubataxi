@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from './Home.module.css'
 
 const Home: React.FC = () => {
@@ -20,6 +21,15 @@ const Home: React.FC = () => {
       </div>
       <div className={styles.separator}></div>
       <div className={styles.content}>
+        <section>
+          <Image
+            className={styles.image}
+            src="/cars.jpg"
+            alt="Nossos carros"
+            width={1600}
+            height={1200}
+          />
+        </section>
         <section className={styles.section}>
           <h3 className={styles.sectionTitle}>Transporte com qualidade, segurança e pontualidade.</h3>
           <p className={styles.sectionText}>Somos uma equipe de motoristas de taxi profissionais, cadastrado na prefeitura da cidade. Cada motorista trabalha com seu veiculo, no sistema de parceria.</p>

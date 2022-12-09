@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
           <AiOutlineWhatsApp className={styles.sectionIcon} />
           <div>
             <h3 className={styles.sectionTitle}>Whatsapp</h3>
-            <p className={styles.sectionText}>Nosso número: <a href="https://wa.me/+5519991550069" rel="noreferrer" target={'_blank'}>19 99115-0069</a></p>
+            <p className={styles.sectionText}>Nosso número: <a href="https://wa.me/+5519991150069" rel="noreferrer" target={'_blank'}>19 99115-0069</a></p>
           </div>
         </section>
         <section className={styles.section}>
