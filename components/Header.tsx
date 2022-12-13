@@ -25,10 +25,12 @@ const Header: React.FC = () => {
 
   return (
     <header className={styles.header}>
-      <h1 className={styles.title}>
-        <span className={styles.titleName}>Indaiatuba</span>
-        <span className={styles.titleSubname}>Táxi</span>
-      </h1>
+      <Link href="/">
+        <h1 className={styles.title}>
+          <span className={styles.titleName}>Indaiatuba</span>
+          <span className={styles.titleSubname}>Táxi</span>
+        </h1>
+      </Link>
       <button className={styles.navOpen} onClick={() => setMobileMenuIsVisible(true)}><GiHamburgerMenu /></button>
       <nav className={navClassName}>
         <button className={styles.navClose} onClick={() => setMobileMenuIsVisible(false)}><AiOutlineClose /></button>

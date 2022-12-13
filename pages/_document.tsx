@@ -6,12 +6,12 @@ export default function Document() {
       <Head>
         <meta name="description" content="Promoção para viagens taxi Indaiatuba e região."/>
         <meta name="keywords" content="promocao,taxi,taxi indaiatuba,indaiatuba,salto,itu,guarulhos,viracopos,campinas" />
-        <link rel="canonical" href="https://indaiatubataxi.com.br/promocao/" />
+        <link rel="canonical" href="https://indaiatubataxi.com.br/" />
         <meta property="og:site_name" content="Táxi Executivo para empresas e viagens | Transporte com segurança e qualidade" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Promoções | Táxi Executivo para empresas e viagens" />
         <meta property="og:description" content="Promoção para viagens taxi Indaiatuba e região." />
-        <meta property="og:url" content="https://indaiatubataxi.com.br/promocao/" />
+        <meta property="og:url" content="https://indaiatubataxi.com.br/" />
         <meta property="twitter:card" content="summary" />
         <meta property="twitter:domain" content="indaiatubataxi.com.br" />
         <meta property="twitter:title" content="Promoções | Táxi Executivo para empresas e viagens" />

@@ -87,7 +87,7 @@ const Sales: React.FC<Props> = (props) => {
         <section className={styles.section}>
           <div>
             <h3 className={styles.sectionTitle}>Formas de Pagamento</h3>
-            <p className={styles.sectionText}>Todas as promoções acima são para pagamentos com dinheiro, cartão de débito, cartão de crédito ou Pix.</p>
+            <p className={styles.sectionText}>Todas as promoções abaixo são para pagamentos com dinheiro, cartão de débito, cartão de crédito ou Pix.</p>
           </div>
         </section>
         {props.sales.length !== 0 ? <SectionSales data={props.sales} /> : <EmptySectionSales />}

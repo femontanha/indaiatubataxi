@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Banner from '../components/Banner'
 import styles from './Home.module.css'
 
 const Home: React.FC = () => {
@@ -20,6 +21,9 @@ const Home: React.FC = () => {
         </div>
       </div>
       <div className={styles.separator}></div>
+      <section className={styles.banner}>
+        <Banner />
+      </section>
       <div className={styles.content}>
         <section>
           <Image
@@ -28,6 +32,7 @@ const Home: React.FC = () => {
             alt="Nossos carros"
             width={1600}
             height={1200}
+            priority
           />
         </section>
         <section className={styles.section}>
