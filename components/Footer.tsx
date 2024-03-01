@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   return (
     <footer className={styles.footer}>
       Desenvolvido por
-      <a href="https://www.instagram.com/fellipeazambuja/" rel="noreferrer" target={'_blank'} className={styles.link}>@femontanha</a>
+      <a href="https://github.com/femontanha" rel="noreferrer" target={'_blank'} className={styles.link}>@femontanha</a>
     </footer>
   )
 }
