@@ -1,27 +1,10 @@
-import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import classNames from 'classnames/bind'
-import { GiHamburgerMenu } from 'react-icons/gi'
-import { AiOutlineClose } from 'react-icons/ai'
 
 import styles from './Header.module.css'
 
-let cx = classNames.bind(styles);
-
 const Header: React.FC = () => {
   const router = useRouter()
-  const dynamicRoute = router.asPath
-  const [ mobileMenuIsVisible, setMobileMenuIsVisible ] = useState(false)
-
-  let navClassName = cx({
-    nav: true,
-    isVisible: mobileMenuIsVisible,
-  });
-
-  useEffect(() => {
-    setMobileMenuIsVisible(false)
-  }, [dynamicRoute])
 
   return (
     <header className={styles.header}>
@@ -31,9 +14,7 @@ const Header: React.FC = () => {
           <span className={styles.titleSubname}>Táxi</span>
         </h1>
       </Link>
-      <button className={styles.navOpen} onClick={() => setMobileMenuIsVisible(true)}><GiHamburgerMenu /></button>
-      <nav className={navClassName}>
-        <button className={styles.navClose} onClick={() => setMobileMenuIsVisible(false)}><AiOutlineClose /></button>
+      <nav className={styles.nav}>
         <ul className={styles.list}>
           <li>
             <Link href="/" className={router.pathname == "/" ? styles.linkActive : styles.link}>Home</Link>
